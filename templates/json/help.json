@@ -21,6 +21,11 @@
     },
     "options": [
         {
+            "shorthand":   "-n",
+            "flag":        "--no-cache",
+            "description": "Disables the cache"
+        },
+        {
             "shorthand":   "-f",
             "flag":        "--force",
             "description": "Makes various commands more forceful"

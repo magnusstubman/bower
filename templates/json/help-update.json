@@ -6,6 +6,11 @@
     ],
     "options": [
         {
+            "shorthand":   "-n",
+            "flag":        "--no-cache",
+            "description": "Disables the cache"
+        },
+        {
             "shorthand":   "-F",
             "flag":        "--force-latest",
             "description": "Force latest version on conflict"
